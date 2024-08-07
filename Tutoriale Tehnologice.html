@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriale Tehnologice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6a0dad;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4b0082;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #9370db;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            background-color: #6a0dad;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tutoriale Tehnologice</h1>
+    </header>
+    <nav>
+        <a href="#despre-mine">Despre mine</a>
+        <a href="contact.html">Contact</a>
+        <a href="#tutoriale">Tutoriale</a>
+    </nav>
+    <section id="despre-mine">
+        <h2>Despre mine</h2>
+        <p>Bun venit pe pagina mea! Sunt un pasionat de tehnologie și îmi place să creez tutoriale pentru a ajuta oamenii să învețe și să se dezvolte în acest domeniu.</p>
+    </section>
+    <section id="tutoriale">
+        <h2>Tutoriale</h2>
+        <p>Aici veți găsi o colecție de tutoriale despre diverse subiecte tehnologice. Rămâneți aproape pentru a învăța lucruri noi!</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tutoriale Tehnologice. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
